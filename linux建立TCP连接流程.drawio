@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-12T11:26:16.076Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="XRSioWmq6yLK1fS4OvH0" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-12T11:27:19.351Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="MfML2AAzo_5te_ClPTpR" version="14.7.7" type="github">
   <diagram id="bfk9J0oviyJDa40cH-uJ" name="第 1 页">
     <mxGraphModel dx="816" dy="1645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -152,7 +152,7 @@
         <mxCell id="Ouwqt23TSlDW81WB9sPQ-51" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; text-align: left ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;rskq_accept_head大小由backlog和/proc/sys/net/core/somaxconn确定，取最小值。&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="50" y="540" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ouwqt23TSlDW81WB9sPQ-52" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;/proc/sys/net/ipv4/tcp_syncookies=1&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="Ouwqt23TSlDW81WB9sPQ-52" value="&lt;span style=&quot;color: rgb(50 , 50 , 50) ; font-size: 13px ; background-color: rgba(255 , 255 , 255 , 0.01)&quot;&gt;/proc/sys/net/ipv4/tcp_syncookies=1&lt;br&gt;为了防止SYN Flood攻击&lt;br&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="610" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ouwqt23TSlDW81WB9sPQ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Ouwqt23TSlDW81WB9sPQ-53" target="Ouwqt23TSlDW81WB9sPQ-5">
